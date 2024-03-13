@@ -2,7 +2,7 @@ import { Command } from "@discord/base";
 import { brBuilder } from "@magicyan/discord";
 import { ApplicationCommandOptionType, ApplicationCommandType, codeBlock, roleMention } from "discord.js";
 
-const moderationRoleId = "1144589177124573185";
+const moderationRoleId = "1213661119667773525";
 
 export default new Command({
     name: "limpar",

@@ -1,14 +1,6 @@
 import { log } from "@/settings";
 import ck from "chalk";
-import {
-    ApplicationCommandData,
-    ApplicationCommandType,
-    AutocompleteInteraction,
-    ChatInputCommandInteraction,
-    Collection, CommandInteraction,
-    MessageContextMenuCommandInteraction,
-    UserContextMenuCommandInteraction
-} from "discord.js";
+import { ApplicationCommandData, ApplicationCommandType, AutocompleteInteraction, ChatInputCommandInteraction, Collection, CommandInteraction, MessageContextMenuCommandInteraction, UserContextMenuCommandInteraction } from "discord.js";
 
 type C<B extends boolean, I extends CommandInteraction | AutocompleteInteraction> = 
 I extends ChatInputCommandInteraction 
